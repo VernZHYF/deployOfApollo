@@ -1,2 +1,2 @@
 # deployOfApollo
-architecture for deployment of apollo in spring-boot
+Simple architecture for deployment of apollo in spring-boot
