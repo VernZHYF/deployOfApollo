@@ -1,0 +1,16 @@
+server:
+  port: 1414
+
+app:
+  id: t12
+apollo:
+  meta: http://106.12.25.204:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
+
+logging:
+  level:
+    com:
+      example: debug
