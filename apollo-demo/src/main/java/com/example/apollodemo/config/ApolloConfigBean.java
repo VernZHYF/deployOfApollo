@@ -19,6 +19,5 @@ public class ApolloConfigBean {
     private String batch;
 
     @Value("${server.port}")
-    String port;
-
+    private String port;
 }

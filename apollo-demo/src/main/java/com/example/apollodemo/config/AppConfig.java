@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * <h1> </h1>
  */
 @Configuration
-@EnableApolloConfig
+@EnableApolloConfig(value = {"application", "product.response"})
 public class AppConfig {
     @Bean
     public ApolloConfigBean javaConfigBean() {

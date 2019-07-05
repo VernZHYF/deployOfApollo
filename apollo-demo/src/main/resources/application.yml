@@ -1,10 +1,8 @@
-server:
-  port: 1414
-
 app:
   id: t12
 apollo:
   meta: http://106.12.25.204:8080
+#  cluster: homework
   bootstrap:
     enabled: true
     eagerLoad:
