@@ -16,13 +16,11 @@ public class HelloController {
     @Autowired
     private AppConfig appConfig;
 
-    @Value("${server.port}")
-    String port;
 
     @GetMapping("/hi")
     public String hi() {
         int timeout = appConfig.javaConfigBean().getTimeout();
         String batch = appConfig.javaConfigBean().getBatch();
-        return "timeout: " + timeout + ", batch: " + batch + ", server.port: " + port;
+        return "timeout: " + timeout + ", batch: " + batch + ", server.port: " + appConfig.javaConfigBean().getPort();
     }
 }

@@ -18,4 +18,7 @@ public class ApolloConfigBean {
     @Value("${batch:200}")
     private String batch;
 
+    @Value("${server.port}")
+    String port;
+
 }
